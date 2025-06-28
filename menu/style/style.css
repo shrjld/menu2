@@ -1,0 +1,27 @@
+#menu{
+    display:none;
+    opacity: 1;
+    border: 1px  solid black;
+    
+    padding: 20px;
+}
+button{
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+
+}
+#open{
+    background-color: green;
+   
+}
+.close{
+    background-color: red;
+    margin-bottom: 20px;
+}
+.menuOpen{
+    opacity: 0;
+    width: 40%;
+    transition: width 1s ease;
+   
+}
